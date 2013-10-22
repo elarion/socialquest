@@ -49,7 +49,7 @@ header h1
 {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    width: 450px;
+    width: 260px;
     margin: auto;
 }
 
@@ -124,11 +124,6 @@ span.current_player
     float: left;
 }
 
-.j2
-{
-    float: right;
-}
-
 .j1
 {
     box-sizing: border-box;
@@ -196,7 +191,7 @@ span.current_player
     cursor: default;
 }
 
-.j1_result, .j2_result
+.j1_result
 {
     padding-top: 10px;
     display: block;

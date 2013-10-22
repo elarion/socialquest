@@ -3,6 +3,7 @@
         <img src="./cores/img/logoPOO.png">
     </h1>
 </header>
+
 <form action="?action=init_party" method="post">
     <div id="form_wrapper">
         <div class="center">
