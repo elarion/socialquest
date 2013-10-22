@@ -1,0 +1,215 @@
+@import "reset.css";
+
+.clear
+{
+    clear: both;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+body
+{
+    background: url('../img/motif.png') left top;
+}
+
+header
+{
+    padding: 30px 0;
+}
+
+header h1
+{
+    width: 489px;
+    height: 476px;
+    margin: auto;
+}
+
+#form_wrapper
+{
+    border-top: 2px solid #272726;
+    border-bottom: 2px solid #272726;
+    background-color: #3C3C3B;
+    padding: 10px;
+}
+
+#player_wrapper
+{
+    margin-bottom: 10px;
+}
+
+.center
+{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.player
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 450px;
+    margin: auto;
+}
+
+span.player
+{
+    display: block;
+    font-family: Impact, Arial, sans-serif;
+    font-size: 25px;
+    color: #3C3C3B;
+}
+
+span.current_player
+{
+    color: #E30613;
+}
+
+.player table tr:first-child td
+{
+    padding-bottom: 10px;
+}
+
+.player table input
+{
+    border: 0;
+    height: 30px;
+    width: 245px;
+    padding-left: 5px;
+}
+
+.player table select
+{
+    border: 0;
+    height: 30px;
+    width: 250px;
+}
+
+.form_subtitle
+{
+    width: 43%;
+    font-family: Arial, sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+#form_init_submit
+{
+    display: block;
+    padding: 3px 30px;
+    margin: 15px auto 0 auto;
+    background-color: #E30613;
+    font-family: Impact, Arial, sans-serif;
+    font-size: 25px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+}
+
+#form_init_submit:hover
+{
+    background-color: #ff0613;
+}
+
+.hp
+{
+    float: right;
+}
+
+.j1
+{
+    float: left;
+}
+
+.j2
+{
+    float: right;
+}
+
+.j1
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 450px;
+}
+
+.center div form span
+{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.center div form span input[type="radio"]
+{
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+.center div form input[type="submit"]
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    background-color: #E30613;
+    color: #FFF;
+    font-family: Impact, Arial, sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.center div form input[type="submit"]:hover
+{
+    background-color: #ff0613;
+}
+
+.center div form span label
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 7px;
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #232322;
+    color: #FFF;
+    font-family: Impact, Arial, sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.center div form span label:hover
+{
+    background-color: #282827;
+}
+
+.center div form span input[type="radio"]:checked + label
+{
+    background-color: #E30613;
+    cursor: default;
+}
+
+.j1_result, .j2_result
+{
+    padding-top: 10px;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 450px;
+    text-align: center;
+    font-family: Impact, Arial, sans-serif;
+    font-size: 25px;
+    color: #E30613;
+}
+
+#restartButton
+{
+    margin-top: 10px;
+}
